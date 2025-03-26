@@ -53,11 +53,13 @@
     background-color: #5ad99f;
 }
 
+
 .contact-button{
     font-size: 0.8em;
     font-weight: 600;
-    width: 10em;
-    padding: 0.6em 1.8em;
+    width: 9em;
+    height: 2.5em;
+    padding: 0 1em;
     background-color: #67F3B2;
     border:1px solid rgb(73, 73, 73);
     border-radius: 3px;
@@ -73,7 +75,8 @@
     font-size: 0.8em;
     font-weight: 600;
     width: fit-content;
-    padding: 0.6em 1.8em;
+    height: 2.5em;
+    padding: 0 1.8em;
     background-color: #e8e8e8;
     border:1px solid rgb(73, 73, 73);
     border-radius: 3px;
