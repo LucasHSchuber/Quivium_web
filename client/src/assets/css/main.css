@@ -3,6 +3,9 @@
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif !important;
 } */
 /* body{
+    width: 100%;
+    transform: scale(0.8);
+    transform-origin: top left;
 } */
 
 
@@ -156,6 +159,7 @@
     width: 60%;
     margin: 0 auto; 
     /* margin-left: 10em;  */
+    padding-left: 7em;
     cursor: default;
 }
 .keyword{
@@ -195,8 +199,9 @@
         display: none;
     }
     .keywords-box{
-        width: 40%;
+        width: 50%;
         margin-left: 10%;
+        padding-left: 2em;
     }
     .keyword{
         font-weight: 600;
@@ -225,6 +230,7 @@
         width: 100%;
         justify-content: center;
         margin-left: 0;
+        padding-left: 0;
         margin: 4em auto 1em auto;
     }
 }

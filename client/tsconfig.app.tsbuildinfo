@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/assets/components/contactmodal.tsx","./src/assets/components/footer.tsx","./src/assets/components/header.tsx","./src/assets/ts/env.tsx","./src/assets/ts/interfaces.tsx","./src/assets/ts/main.tsx","./src/pages/about.tsx","./src/pages/index.tsx","./src/pages/versions.tsx"],"version":"5.7.3"}
