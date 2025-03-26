@@ -12,7 +12,7 @@
   }
   
   .footer-logo img {
-    width: 100px; 
+    width: 75px; 
     height: auto;
   }
   
@@ -32,7 +32,14 @@
   .footer-link:hover {
     color: #67F3B2; 
   }
-  
+
+  @media (max-width: 997px) {
+    .footer-logo img {
+        width: 50px; 
+        height: auto;
+    }
+  }
+
 
 
 
@@ -111,7 +118,7 @@
 
 
 
-  @media (max-width: 1556px) {
+  @media (max-width: 997px) {
     .header-wrapper{
         padding: 1em 4em;
       }
@@ -163,7 +170,7 @@
 }
 
 
-@media (max-width: 1256px) {
+@media (max-width: 756px) {
     .modal-dialog{
         top: 1em;
         min-width: 90%;
@@ -174,4 +181,4 @@
     .modal-body{
         padding: 0.5em 1em 1em 1em !important;
     }
-  }
+}

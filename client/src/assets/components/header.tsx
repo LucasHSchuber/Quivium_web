@@ -19,14 +19,14 @@ import "../css/components.css";
 export default function Header() {
  // define  states
   const [isOpen, setIsOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 1956);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 756);
   const [showContactModal, setShowContactModal] = useState(false);
 
   const onCloseContactModal = () => {setShowContactModal(false)}
   const onSuccessContactModal = () => {setShowContactModal(false)}
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 1956);
+    const handleResize = () => setIsMobile(window.innerWidth < 756);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -54,8 +54,8 @@ export default function Header() {
                 <div>
                     {!isMobile && (
                         <nav className={`${isMobile ? "desktop-nav-hidden" : "desktop-nav"}`}>
-                            <Link to="/about" className="header-link">About</Link>
                             <Link to="/versions" className="header-link">Versions</Link>
+                            <Link to="/about" className="header-link">About</Link>
                             <Link to="#" className="header-link" onClick={() => setShowContactModal(!showContactModal)}>Contact</Link>
                         </nav>
                     )}
@@ -85,8 +85,8 @@ export default function Header() {
             >
                 <div>
                     <Link to="/" className="header-link-mobile" onClick={() => setIsOpen(false)}>Home</Link>
-                    <Link to="/about" className="header-link-mobile" onClick={() => setIsOpen(false)}>About</Link>
                     <Link to="/versions" className="header-link-mobile" onClick={() => setIsOpen(false)}>Versions</Link>
+                    <Link to="/about" className="header-link-mobile" onClick={() => setIsOpen(false)}>About</Link>
                     <Link to="#" className="header-link-mobile" onClick={() => {setIsOpen(false); setShowContactModal(!showContactModal)}}>Contact</Link>
                 </div>
             </motion.nav>

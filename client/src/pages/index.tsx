@@ -91,7 +91,7 @@ function Index() {
             <div className='d-flex hero-box'>
                 <div className='hero-left-box'>
                     <h1><span>Quivium</span> Task Management Desktop Application</h1>
-                    <h6>An effective desktop application to link your notes to tasks and tasks to lists. </h6>
+                    <h6>An effective desktop application where you can link your notes to tasks and tasks to lists. </h6>
                 </div>
                 <div className='hero-right-box'>
                     {/* <img src={index_img} alt='Img'></img> */}

@@ -24,13 +24,13 @@ const Footer = () => {
           {/* Vertical menu */}
           <nav className="d-flex footer-nav">
             <div>
-                <NavLink to="/about" className="footer-link">
-                About
+                <NavLink to="/versions" className="footer-link">
+                Versions
                 </NavLink>
             </div>
             <div>
-                <NavLink to="/versions" className="footer-link">
-                Versions
+                <NavLink to="/about" className="footer-link">
+                About
                 </NavLink>
             </div>
             <div>

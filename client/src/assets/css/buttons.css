@@ -15,7 +15,7 @@
     height: 3.9em;
     width: 4em;
     background-color: inherit;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     font-size: 0.9em;
     color: #3d3d3d;
@@ -30,13 +30,13 @@
 .download-application-button{
     background-color: #2d2d2d;
     color:white;
-    border: 2px solid #67F3B2;
-    border: 2.5px solid rgb(239, 239, 239);    
+    border: 1px solid #67F3B2;
+    border: 1px solid rgb(239, 239, 239);    
 }
 .download-application-button:hover{
     background-color: rgb(66, 66, 66);
     color:#67F3B2;
-    border: 2.5px solid white;    
+    border: 1px solid white;    
 }
 
 
@@ -61,7 +61,7 @@
     height: 2.5em;
     padding: 0 1em;
     background-color: #67F3B2;
-    border:1px solid rgb(73, 73, 73);
+    border: 0.5px solid rgb(73, 73, 73);
     border-radius: 3px;
     color: rgb(40, 40, 40);
     cursor: pointer;
@@ -69,7 +69,7 @@
 }
 .contact-button:hover{
     background-color: #5feeab;
-    border:1px solid rgb(0, 0, 0);
+    border: 0.5px solid rgb(0, 0, 0);
 }
 .contact-cancel-button{
     font-size: 0.8em;
@@ -78,7 +78,7 @@
     height: 2.5em;
     padding: 0 1.8em;
     background-color: #e8e8e8;
-    border:1px solid rgb(73, 73, 73);
+    border: 0.5px solid rgb(73, 73, 73);
     border-radius: 3px;
     color: rgb(40, 40, 40);
     cursor: pointer;
@@ -86,7 +86,7 @@
 }
 .contact-cancel-button:hover{
     background-color: #e1e1e1;
-    border:1px solid rgb(0, 0, 0);
+    border: 0.5px solid rgb(0, 0, 0);
 }
 
 
@@ -95,7 +95,7 @@
     .button{
         padding: 0.75em 2.4em;
         font-size: 1.7em;
-        border-radius: 10px;
+        border-radius: 5px;
         font-weight: 600;
         transition: 0.2s;
         cursor: pointer;
