@@ -117,13 +117,25 @@
   }
 
 
-
+  @media (min-width: 1663px) {
+    .header-wrapper{
+        padding: 1em 23em;
+        background-color: #fbfbfb;
+      }
+   }
   @media (max-width: 997px) {
     .header-wrapper{
         padding: 1em 4em;
       }
     .mobile-wrapper{
         padding: 1.5em 4em;
+      }
+      .header-logo{
+        width: 5em;
+        height: 5em;
+      }
+      .header-logo-link{
+        font-weight: 500;
       }
   }
 

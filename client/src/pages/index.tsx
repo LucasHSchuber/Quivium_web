@@ -10,8 +10,9 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 // import index_img from "../assets/images/index.png"
 import download_img from "../assets/images/download.png"
-import menu_img from "../assets/images/menu.png"
+// import menu_img from "../assets/images/menu.png"
 import new_task_img from "../assets/images/new_task.png"
+import new_list_vid from "../assets/videos/Quivium_new_list_compressed.mp4"
 import notes_img from "../assets/images/notes.png"
 import hero_vid from "../assets/videos/quivium_hero_compressed.mp4"
 import sticky_vid from "../assets/videos/quivium_sticky_compressed.mp4"
@@ -118,7 +119,7 @@ function Index() {
                     >
                        Free Download for Win
                     </button>
-                    <h3 className='mt-4'><em>Quivium is currently only avaliable for windows users</em></h3>
+                    <h3><em>Quivium is currently only avaliable for windows users</em></h3>
                 </div>
                 <div className='keywords-box'>
                     {/* <h5 className='keyword'>Desktop</h5> */}
@@ -127,7 +128,7 @@ function Index() {
                     <h5 className='keyword'>Full Offline Support</h5>
                     <h5 className='keyword'>SQLite Database</h5>
                     <h5 className='keyword'>Smart & Intuitive</h5>
-                    <h5 className='keyword'>Archive completed lists</h5>
+                    <h5 className='keyword'>Archive Completed Lists</h5>
                     <h5 className='keyword'>Lightning Fast Performance</h5>
                     <h5 className='keyword'>No Cloud Required</h5>
                     <h5 className='keyword'>Lightweight & Resource-Efficient </h5>
@@ -144,7 +145,8 @@ function Index() {
         <div className='details-wrapper'>
             <div className='d-flex justify-content-center details-box'>
                 <div className='details-right-box'>
-                    <img src={menu_img} alt='Img'></img>
+                    {/* <img src={new_list_vid} alt='Img'></img> */}
+                    <video src={new_list_vid} autoPlay loop muted></video>
                 </div>
                 <div className='details-left-box'>
                     <h4>Create lists and attach a color to it to easier distinguish it from other lists</h4>
@@ -168,7 +170,7 @@ function Index() {
             </div>
             <div className='d-flex justify-content-center details-box'>
                 <div className='details-right-box'>
-                <video src={sticky_vid} autoPlay loop muted></video>
+                    <video src={sticky_vid} autoPlay loop muted></video>
                 </div>
                 <div className='details-left-box'>
                     <h4>Make tasks sticky on top of the wall to prioritize certain tasks</h4>

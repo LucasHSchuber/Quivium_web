@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Modal } from 'react-bootstrap';
-import _env from '../ts/env.tsx';
+import _env from '../ts/env';
 console.log('_env', _env);
 
 import "../css/components.css"

@@ -65,6 +65,8 @@ export default function Header() {
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             className="hamburger-menu-button"
+                            aria-label={isOpen ? "Close menu" : "Open menu"}
+                            title={isOpen ? "Close menu" : "Open menu"}
                         >
                             {isOpen ? <FontAwesomeIcon size="2x" icon={faXmark} /> : <FontAwesomeIcon size="2x" icon={faBars} />
                         }
